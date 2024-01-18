@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors In CSS</title>
+    <style>
+        /*Element Selector*/
+         h1{
+            color: blue;
+        }
+        /*class selector*/
+        .birthday{
+            color:blueviolet;
+            text-transform: uppercase;
+        }
+        /*id selector*/
+        #wish{
+            text-transform: lowercase;
+            background-color:rosybrown;
+        }
+        /*child Selector*/
+        div > p{
+            background-color: aqua;
+            text-transform: capitalize;
+        }
+        /*space selector*/
+        div p {
+            background-color: beige;
+            text-transform: inherit;
+        }
+        /*universal aetector*/
+        *{
+            background-color: aquamarine;
+        }
+        /*pseudo selectors*/
+        a:visited{
+             color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+    a:active{
+        background-color: aqua;
+    }
+    a:hover{
+        color: antiquewhite;
+    }
+    a:first-child{
+        color: #000;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Birthday</h1>
+    <p>happy birthday </p>
+
+    
+<div>
+        <h1 class="birthday"> Happy birthday</h1>
+        <p >Wish you a many many happy returns of the day</p>
+
+</div>
+    
+<div>
+        <h1 id="wish">Another adventure filled year awaits  Welcome it by celebrating your birthday with pomp and. <br> Wishing you a very happy and fun-filled birthday!</h1>
+</div>
+<div>
+    <p>first paragrapha</p>
+    <p>second paragraph</p>
+</div>
+
+<div>
+    <p>Descendantselector</p>
+    <p>birthday wish</p>
+</div>
+<div>
+    <p>universal selector adding </p>
+</div>
+<a href="https://www.shutterfly.com/ideas/happy-birthday-quotes/"> birthdaywish.com</a>
+<a href="https://www.google.com/">google.com</a>
+
+</body>
+</html>
